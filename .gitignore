@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+*.py[cod]
+*/.idea/*
+=======
+*/.idea/*
+*/.idea/workspace.xml
+*/__pycache__/*
+*/.idea/*.pyc
+
+>>>>>>> eec0c2e7622d9a543005efaf8b9daf9a050a2017
+

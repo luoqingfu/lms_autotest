@@ -1,0 +1,9 @@
+lms_login/lms_login_t
+lms_login/lms_login_funt
+app_download/app_down_t
+find_course/select_course_t
+homepage/study_centre_t
+presion_data_t/address_add_t
+presion_data_t/change_set_t
+presion_data_t/change_pwd_t
+presion_data_t/safe_t
