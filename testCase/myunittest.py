@@ -1,17 +1,7 @@
 import unittest
-from common.drive import Driver
-from common.function import Excel
-from page_obj.app_download.app_down import app_d
-from page_obj.find_course.select_course import selectCourse
-from page_obj.homepage.study_centre import study_centre
 
-from page_obj.lms_longin.lms_login import LmsLogin
-from page_obj.lms_longin.lms_login_fun import lmsLoginFun
-from page_obj.persion_data.address_add import addressAdd
-from page_obj.persion_data.change_pwd import change_pwd
-from page_obj.persion_data.data_set import dataSet
-from page_obj.persion_data.safe import safeEdit
-from page_obj.study_course.study_course import studyCourse
+from common.function import Excel
+
 
 from readConfig import ReadConfig
 
