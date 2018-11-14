@@ -7,3 +7,7 @@ presion_data_t/address_add_t
 presion_data_t/change_set_t
 presion_data_t/change_pwd_t
 presion_data_t/safe_t
+pm_test/a&f
+pm_test/p&m_t
+pm_test/per_pm_t
+pm_test/register_t

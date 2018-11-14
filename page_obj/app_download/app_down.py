@@ -55,7 +55,7 @@ class app_d(Page):
     def move_to_e(self):
         #移动到立即下载
         self.move('立即下载')
-        return self.isElementExist( "图片")
+        return self.isElementExist("图片")
 
 
 

@@ -231,11 +231,11 @@ class Page():
     def move(self, element):
         """鼠标悬停"""
         try:
-            el = self.find_element( element)
+            el = self.find_element(element)
             self.wait_time(0.5)
             self.action().move_to_element(el).perform()
         except Exception as e:
-            logger.error("鼠标没有能正常悬停在 {} 的 {} 上".format( element))
+            logger.error("鼠标没有能正常悬停在的 {} 上".format( element))
             logger.error(e)
         self.wait_time(0.5)
 
