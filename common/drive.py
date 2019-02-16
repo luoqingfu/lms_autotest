@@ -23,7 +23,8 @@ class Driver():
             self.browser = webdriver.Firefox(self.firefox_driver_path)
             logger.info("打开火狐浏览器")
         if self.driver == "Chrome":
-            self.browser = webdriver.Chrome(self.chrome_driver_path)
+            #self.browser = webdriver.Chrome(self.chrome_driver_path)
+            self.browser = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities={'browserName': 'chrome'})
             logger.info("打开谷歌浏览器")
         #if self.driver == "IE":
            # self.browser = webdriver.Ie(self.ie_driver_path)
@@ -35,7 +36,7 @@ class Driver():
             self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.browser.implicitly_wait(self.time)
         logger.info("隐式等待元素时间为：{}".format(self.time))
-        return  self.browser
+        return self.browser
 
 if __name__ == '__main__':
     dir = os.path.dirname(os.path.abspath(''))  # 注意相对路径获取方法

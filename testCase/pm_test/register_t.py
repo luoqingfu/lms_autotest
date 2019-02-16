@@ -10,7 +10,7 @@ class perpmLoginTest(myunittest):
     def setUp(self):
         driver = Driver(self.browser).open_browser()
         self.perpmRegister = perpmRegister(driver)
-        self.perpmRegister.open('https://beta.eliteu.cn/')
+        self.perpmRegister.open('https://www.eliteu.cn/')
         self.AssertionError = []
 
     def tearDown(self):
