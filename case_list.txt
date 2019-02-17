@@ -1,1 +1,1 @@
-lms_login/lms_login_t
+pm_test/register_t
