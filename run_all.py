@@ -101,6 +101,6 @@ if __name__ == '__main__':
     report_file = filename
     # 发送测试报告邮件
 
-    send_mail()
+    #send_mail()
     print('Send Test Report Mail Now...')
 
